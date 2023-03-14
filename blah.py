@@ -8,7 +8,7 @@ from flask_cors import CORS
 import random
 import pickle
 
-with open("intents.json") as file:
+with open("intents1.json") as file:
     data = json.load(file)
 
 
