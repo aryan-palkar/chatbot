@@ -1,0 +1,17 @@
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+    "msg" : "Hello There!!"
+}
+
+###
+GET http://localhost:5000/test
+
+###
+POST http://localhost:5000/submit
+
+{
+    "name" : "Hello There!!",
+    "email" : "abcd"
+}
