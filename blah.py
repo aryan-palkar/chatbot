@@ -11,7 +11,7 @@ from colorama import Fore, Style, Back
 import random
 import pickle
 
-with open("intents.json") as file:
+with open("intents1.json") as file:
     data = json.load(file)
 
 
